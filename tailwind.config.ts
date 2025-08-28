@@ -18,6 +18,19 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+			},
+			boxShadow: {
+				elegant: 'var(--shadow-elegant)',
+			},
+			transitionProperty: {
+				smooth: 'var(--transition-smooth)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
